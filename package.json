@@ -4,7 +4,7 @@
     "description": "SmartBank Hackathon Project",
     "scripts": {
         "start": "echo 'No start script at root'",
-        "build": "echo 'No build script at root'"
+        "build": "cd frontend && npm install && npm run build"
     },
     "private": true
 }
